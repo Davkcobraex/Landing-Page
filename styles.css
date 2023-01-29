@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    border-radius: 16px;
+    width: 100px;
+    height: auto;
+}
+
+.header{
+    display: flex;
+}
