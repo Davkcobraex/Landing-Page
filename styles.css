@@ -1,11 +1,46 @@
 body{
-    display: flex;
-    flex-direction: column;
-}
+  display: flex;
+  margin: 0px;
 
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+.header{
+  background-color: #1F2937;
+  color: white;
+  padding: 16px;
+
+}
 .icon{
-    border-radius: 16px;
-    width: 100px;
-    height: auto;
+  border-radius: 16px;
+  width: 100px;
+  height: auto;
+}
+.title{
+  align-self: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 24px;
+}
+.header-img{
+  border-radius: 16px;
+  width: 450px;
+  height: 250px;
 }
 
+.top{
+  display: flex;
+
+}
+
+.nav{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-left: auto;
+  gap: 14px;
+}
+
+a {
+  text-decoration: none;
+}
