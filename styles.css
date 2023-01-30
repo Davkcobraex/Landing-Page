@@ -40,7 +40,7 @@ body{
   display: flex;
   list-style-type: none;
   padding: 0;
-  gap: 14px;
+  gap: 24px;
 }
 
 a {
