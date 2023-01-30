@@ -26,7 +26,6 @@ body{
   border-radius: 16px;
   width: 450px;
   height: 250px;
-  flex: auto;
 }
 
 .top{
@@ -55,7 +54,7 @@ a {
   margin: auto;
   min-width: 600px;
   max-width: 1000px;
-  padding: 5%;
+  padding: 40px;
 }
 
 button{
@@ -66,4 +65,10 @@ button{
   border: none;
   padding: 16px;
   border-radius: 24px;  
+}
+
+
+.content-img{
+  width: 200px;
+  height: auto;
 }
